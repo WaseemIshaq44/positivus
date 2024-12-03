@@ -58,10 +58,10 @@
   background-color: #87ff4fb9;
 }
 .bckslv {
-  background-color: #daeceb;
+  background-color: #e2e3e5;
 }
 .bckslv:hover {
-  background-color: #b8cecc8e;
+  background-color: #a6d1ceb4;
 }
 .crd {
   height: 15rem;
@@ -82,4 +82,9 @@
 }
 .mrgn{
   margin: 40px auto;
+}
+.btn-outline-light:hover{
+  font-weight: bold !important;;
+  background-color: #f8f9fa !important;
+  color: #000 !important;
 }
