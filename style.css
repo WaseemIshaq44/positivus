@@ -1,0 +1,85 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.theme-btn-outlined {
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.btn-theme-black {
+  background-color: #191a23;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 30px;
+}
+
+.btn-theme-black:hover {
+  background-color: #191a23;
+  color: #fff;
+}
+
+.main-header-content {
+  gap: 25px;
+}
+
+.image-box > img {
+  width: 100%;
+}
+
+.brand-logos > div > img {
+  filter: grayscale(1);
+}
+
+@media only screen and (max-width: 540px) {
+  .image-box {
+    margin-top: 30px;
+  }
+
+  .brand-logos > div {
+    margin-top: 25px;
+  }
+  .btn_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  .btn_text1{
+    margin: 0px auto;
+  }
+}
+.bckgrn {
+  background-color: #b9ff66;
+}
+.bckgrn:hover {
+  background-color: #87ff4fb9;
+}
+.bckslv {
+  background-color: #daeceb;
+}
+.bckslv:hover {
+  background-color: #b8cecc8e;
+}
+.crd {
+  height: 15rem;
+  box-shadow: 0px 5px 0px 0px;
+}
+.shdw {
+  box-shadow: 0px 5px 0px 0px;
+}
+.jcont {
+  justify-content: space-between;
+}
+.height75 {
+  height: 150vh;
+}
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+.mrgn{
+  margin: 40px auto;
+}
